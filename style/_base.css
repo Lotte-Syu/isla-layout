@@ -8,7 +8,12 @@
   --sub-text: #858585;
   --bg-gray: #fafafa;
   --btn-bg: linear-gradient(180deg, #fd7061 0%, #ff8679 46.15%, #fd7061 100%);
-  --btn-bg-hover: linear-gradient(180deg, #ff6251 0%, #e96f62 46.15%, #fd7061 100%);
+  --btn-bg-hover: linear-gradient(
+    180deg,
+    #ff6251 0%,
+    #e96f62 46.15%,
+    #fd7061 100%
+  );
   --color-linear: linear-gradient(180deg, #e78c82 0%, #f1aca4 100%);
   --bar-linear: linear-gradient(270deg, #bebebe 0%, #fa8e83 100%);
   --title-linear: linear-gradient(90deg, #fa8e83 0%, #fff 100%);
@@ -54,7 +59,15 @@ h6 {
   font-weight: 600;
   font-size: 1rem;
 }
-
+input[type="text"] {
+  border: 1px solid var(--sub-element);
+  border-radius: 5px;
+  padding-inline: 0.75rem;
+  padding-block: 0.25rem;
+}
+input[type="text"]:focus {
+  outline: 2px solid var(--sub-element);
+}
 .card-style {
   border-radius: 15px;
   border: 2px solid rgba(185, 185, 185, 0.15);
