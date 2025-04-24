@@ -3,10 +3,12 @@
   --main-color: #fd7061;
   --sub-color: #fa8e83;
   --strong-color: #fd4f3c;
+  /* text style */
   --sub-element: #bebebe;
   --main-text: #373737;
   --sub-text: #858585;
   --bg-gray: #fafafa;
+  /* linear style */
   --btn-bg: linear-gradient(180deg, #fd7061 0%, #ff8679 46.15%, #fd7061 100%);
   --btn-bg-hover: linear-gradient(
     180deg,
@@ -31,7 +33,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
   padding: 0;
 }
